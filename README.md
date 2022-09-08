@@ -8,7 +8,7 @@ Made using the work from [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials#Begin
 
 To build the package run the following commands :
 ```
-cd ~/SC-Robotics-Software-Intro-Task/
+cd ~/SC-Robotics-Intro-Task/
 catkin_make
 ```
 
@@ -20,14 +20,14 @@ roscore
 ```
 2.  Source the workspace's setup file :
 ```
-cd ~/SC-Robotics-Software-Intro-Task/
+cd ~/SC-Robotics-Intro-Task/
 source ./devel/setup.bash/
 ```
 3.  Run the publisher :
 ```
-rosrun pub-sub_task talker.py
+rosrun pub-sub talker.py
 ```
 4.  Run the subscriber :
 ```
-rosrun pub-sub_task listener
+rosrun pub-sub listener
 ```
